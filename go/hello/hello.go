@@ -14,6 +14,7 @@ func main() {
 	//fmt.Println("Hello, " + x)
 }
 
-func HelloGo(name string) string {
+//export helloGo
+func helloGo(name string) string {
 	return greetings.Hello(name)
 }

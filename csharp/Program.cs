@@ -5,7 +5,7 @@ namespace HelloGo
 {
     class Program
     {
-        [DllImport(@"GoWrapper", EntryPoint = "HelloGo", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
+        [DllImport(@"GoWrapper", EntryPoint = "helloGo", CallingConvention = CallingConvention.Cdecl, CharSet = CharSet.Ansi)]
         private static extern int HelloGo(string name);
 
         static void Main(string[] args)
